@@ -1,0 +1,46 @@
+/* Geral */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: 323232;
+    border: none;
+}
+ 
+    input, label{
+        display: block;
+        width: 100;
+    }
+    
+    input:focus, label :focus {
+        outline: none;
+    }
+    a{
+        color:blueviolet
+        }
+
+        body{
+            padding-top: 5vh; /*view height -> 5% da tela*/
+            background-image: url("https://st2.depositphotos.com/1053646/5902/i/450/depositphotos_59025411-stock-photo-beautiful-night-cityscape.jpg");
+            background-size: cover;
+            background-position-y: -150px;
+        }
+
+        /* Form */
+        #main-container {
+            width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 25px;
+        }
+        #main-container h1{
+
+            text-align: center;
+            margin-bottom: 25px;
+            font-size: 1.6rem; /*adaptada ao elemento rot*/
+
+
+        }
